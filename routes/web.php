@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\ProfileController;
@@ -33,6 +34,7 @@ Route::middleware('auth')->group(function () {
 Route::resource('blogs', BlogController::class);
 Route::resource('projects', ProjectController::class);
 Route::resource('produks', ProdukController::class);
+Route::resource('berita', BeritaController::class);
 
 
 require __DIR__ . '/auth.php';

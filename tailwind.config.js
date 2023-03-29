@@ -21,6 +21,7 @@ module.exports = {
                 secondary: '#FFD900',
                 three: '#1E2748',
                 four: '#111629',
+                five: '#17C3F9',
                 dark: {
                     'eval-0': '#151823',
                     'eval-1': '#222738',
